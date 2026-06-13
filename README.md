@@ -1,4 +1,15 @@
+<div  align=center>
+    <img src="https://raw.githubusercontent.com/HIT-ReFreSH/VeryFS/main/images/logo.svg" width = 30% height = 30%  />
+</div>
+
 # VeryFS
+
+![GitHub](https://img.shields.io/github/license/HIT-ReFreSH/VeryFS?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/HIT-ReFreSH/VeryFS?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/HIT-ReFreSH/VeryFS?style=flat-square)
+![GitHub code size](https://img.shields.io/github/languages/code-size/HIT-ReFreSH/VeryFS?style=flat-square)
+
+[Project Hub](https://github.com/HIT-ReFreSH/VeryFS) | [Call for Contributions](https://github.com/HIT-ReFreSH/VeryFS/blob/main/CALL_FOR_CONTRIBUTIONS.md)
 
 VeryFS is an AI-native Virtual File System for connecting applications,
 automation tools, and AI agents to heterogeneous knowledge and storage sources.
@@ -45,7 +56,8 @@ The project is split into focused repositories:
 
 | Repository | Purpose |
 | --- | --- |
-| `VeryFS.Core` | Core API, metadata storage, ACLs, virtual namespace, local driver, and driver abstractions. |
+| `VeryFS.Core` | Core library, metadata storage, ACLs, virtual namespace, local driver, and driver abstractions. |
+| `VeryFS.Server` | ASP.NET Core HTTP server and Docker packaging for VeryFS. |
 | `VeryFS.Drivers` | Driver packages for Git providers, WebDAV, Zotero, remote VeryFS, and shared driver utilities. |
 | `VeryFS.Clients.CSharp` | C# SDK for the VeryFS API. |
 | `VeryFS.Clients.Python` | Python SDK for the VeryFS API. |
@@ -61,7 +73,7 @@ project converges on a stable plugin and client model.
 
 The current implementation focuses on:
 
-- ASP.NET Core based VeryFS Core service.
+- ASP.NET Core based VeryFS Server.
 - PostgreSQL-backed metadata and secret storage.
 - User-scoped access control and signed request support.
 - Virtual directories and links.

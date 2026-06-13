@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">VeryFS Logo</title>
+  <desc id="desc">AI-native virtual filesystem logo</desc>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="56" x2="440" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FD1C5"/>
+      <stop offset="0.55" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="node" x1="128" y1="128" x2="384" y2="384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0F172A"/>
+  <path d="M116 184c0-37.6 30.4-68 68-68h144c37.6 0 68 30.4 68 68v144c0 37.6-30.4 68-68 68H184c-37.6 0-68-30.4-68-68V184Z" fill="url(#bg)"/>
+  <path d="M176 176h80l32 32h48c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H176c-17.7 0-32-14.3-32-32V208c0-17.7 14.3-32 32-32Z" fill="url(#node)" opacity="0.96"/>
+  <path d="M176 256h160M176 304h116" stroke="#1E3A8A" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="176" cy="256" r="16" fill="#14B8A6"/>
+  <circle cx="336" cy="256" r="16" fill="#7C3AED"/>
+  <circle cx="176" cy="304" r="16" fill="#3B82F6"/>
+  <circle cx="292" cy="304" r="16" fill="#14B8A6"/>
+  <path d="M152 116 96 84M360 396l56 32M396 152l36-48M116 360l-44 48" stroke="#93C5FD" stroke-width="20" stroke-linecap="round" opacity="0.72"/>
+</svg>

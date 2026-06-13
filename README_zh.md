@@ -1,4 +1,15 @@
+<div  align=center>
+    <img src="https://raw.githubusercontent.com/HIT-ReFreSH/VeryFS/main/images/logo.svg" width = 30% height = 30%  />
+</div>
+
 # VeryFS
+
+![GitHub](https://img.shields.io/github/license/HIT-ReFreSH/VeryFS?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/HIT-ReFreSH/VeryFS?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/HIT-ReFreSH/VeryFS?style=flat-square)
+![GitHub code size](https://img.shields.io/github/languages/code-size/HIT-ReFreSH/VeryFS?style=flat-square)
+
+[Project Hub](https://github.com/HIT-ReFreSH/VeryFS) | [Call for Contributions](https://github.com/HIT-ReFreSH/VeryFS/blob/main/CALL_FOR_CONTRIBUTIONS.md)
 
 VeryFS 是一个 AI 原生的虚拟文件系统，用于把应用、自动化工具和 AI Agent
 连接到不同来源的知识与存储资源。
@@ -29,7 +40,8 @@ VeryFS 提供类似 Unix 的命名空间，可以挂载本地目录、Git 仓库
 
 | 仓库 | 用途 |
 | --- | --- |
-| `VeryFS.Core` | Core API、元数据存储、ACL、虚拟命名空间、本地驱动和驱动抽象。 |
+| `VeryFS.Core` | Core 库、元数据存储、ACL、虚拟命名空间、本地驱动和驱动抽象。 |
+| `VeryFS.Server` | VeryFS 的 ASP.NET Core HTTP 服务和 Docker 打包。 |
 | `VeryFS.Drivers` | Git、WebDAV、Zotero、远程 VeryFS 以及共享驱动工具包。 |
 | `VeryFS.Clients.CSharp` | C# SDK。 |
 | `VeryFS.Clients.Python` | Python SDK。 |
