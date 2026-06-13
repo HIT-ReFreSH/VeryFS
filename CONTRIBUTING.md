@@ -28,6 +28,22 @@ development, documentation, and operational hardening.
 4. Update documentation when behavior or public APIs change.
 5. Use MIT-compatible dependencies unless there is a clear reason not to.
 
+## Local Development
+
+See [Call for Contributions](CALL_FOR_CONTRIBUTIONS.md) for the current minimal
+development instance. The short version is:
+
+```powershell
+cd workspace
+dotnet build .\VeryFSCore\src\VeryFS.Core\VeryFS.Core.csproj
+dotnet build .\VeryFS.Server\src\VeryFS.Server\VeryFS.Server.csproj
+dotnet run --project .\VeryFS.Server\src\VeryFS.Server\VeryFS.Server.csproj
+```
+
+The default development server uses JSON metadata and permissive security so
+contributors can inspect the API quickly. Use the Docker Compose path when
+working on PostgreSQL metadata, authentication, or deployment behavior.
+
 ## Driver Contributions
 
 New drivers should define:
