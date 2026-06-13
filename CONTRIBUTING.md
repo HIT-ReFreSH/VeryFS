@@ -34,8 +34,9 @@ See [Call for Contributions](CALL_FOR_CONTRIBUTIONS.md) for the current minimal
 development instance. The short version is:
 
 ```powershell
-cd workspace
-dotnet build .\VeryFSCore\src\VeryFS.Core\VeryFS.Core.csproj
+git clone --recurse-submodules https://github.com/HIT-ReFreSH/VeryFS.git
+cd VeryFS
+dotnet build .\VeryFS.Core\src\VeryFS.Core\VeryFS.Core.csproj
 dotnet build .\VeryFS.Server\src\VeryFS.Server\VeryFS.Server.csproj
 dotnet run --project .\VeryFS.Server\src\VeryFS.Server\VeryFS.Server.csproj
 ```

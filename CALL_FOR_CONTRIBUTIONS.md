@@ -28,26 +28,17 @@ driver contract, security model, and developer experience.
 
 ## Start a Minimal Development Instance
 
-The current source layout expects the public repositories to be checked out as
-sibling directories. Until the umbrella repository starts tracking them as Git
-submodules, use this shape:
+Clone the umbrella repository with submodules:
 
-```text
-workspace/
-  VeryFS/
-  VeryFSCore/
-  VeryFS.Server/
-  VFSDrivers/
-  VeryFS.Clients.CSharp/
-  VeryFS.Clients.Python/
-  VeryFS.Clients.TypeScript/
+```powershell
+git clone --recurse-submodules https://github.com/HIT-ReFreSH/VeryFS.git
+cd VeryFS
 ```
 
 Fastest path, using the JSON metadata store and permissive security mode:
 
 ```powershell
-cd workspace
-dotnet build .\VeryFSCore\src\VeryFS.Core\VeryFS.Core.csproj
+dotnet build .\VeryFS.Core\src\VeryFS.Core\VeryFS.Core.csproj
 dotnet build .\VeryFS.Server\src\VeryFS.Server\VeryFS.Server.csproj
 dotnet run --project .\VeryFS.Server\src\VeryFS.Server\VeryFS.Server.csproj
 ```
@@ -65,7 +56,7 @@ If your local ASP.NET Core profile chooses another port, use the URL printed by
 To run the minimal test suite:
 
 ```powershell
-cd workspace\VeryFSCore
+cd VeryFS.Core
 dotnet run --project .\tests\VeryFS.Core.Tests\VeryFS.Core.Tests.csproj
 ```
 
@@ -75,7 +66,7 @@ parent as the build context so Core and driver projects can be copied into the
 image:
 
 ```powershell
-cd workspace\VeryFS.Server
+cd VeryFS.Server
 $env:VERYFS_POSTGRES_CONNECTION="Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=postgres"
 docker compose up --build
 curl http://localhost:5080/health

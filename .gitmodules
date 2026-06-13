@@ -1,0 +1,18 @@
+[submodule "VeryFS.Core"]
+	path = VeryFS.Core
+	url = https://github.com/HIT-ReFreSH/VeryFS.Core.git
+[submodule "VeryFS.Server"]
+	path = VeryFS.Server
+	url = https://github.com/HIT-ReFreSH/VeryFS.Server.git
+[submodule "VeryFS.Drivers"]
+	path = VeryFS.Drivers
+	url = https://github.com/HIT-ReFreSH/VeryFS.Drivers.git
+[submodule "VeryFS.Clients.CSharp"]
+	path = VeryFS.Clients.CSharp
+	url = https://github.com/HIT-ReFreSH/VeryFS.Clients.CSharp.git
+[submodule "VeryFS.Clients.Python"]
+	path = VeryFS.Clients.Python
+	url = https://github.com/HIT-ReFreSH/VeryFS.Clients.Python.git
+[submodule "VeryFS.Clients.TypeScript"]
+	path = VeryFS.Clients.TypeScript
+	url = https://github.com/HIT-ReFreSH/VeryFS.Clients.TypeScript.git

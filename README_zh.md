@@ -48,6 +48,10 @@ VeryFS 提供类似 Unix 的命名空间，可以挂载本地目录、Git 仓库
 | `VeryFS.Clients.TypeScript` | TypeScript SDK。 |
 | `VeryFS` | 项目介绍、路线图、贡献指南和仓库索引。 |
 
+本仓库通过 Git submodule 纳入各实现仓库。请使用
+`git clone --recurse-submodules https://github.com/HIT-ReFreSH/VeryFS.git`
+获取完整源码。
+
 ## 当前状态
 
 VeryFS 仍处于 pre-1.0 阶段，API 和驱动契约可能继续调整。当前重点是稳定

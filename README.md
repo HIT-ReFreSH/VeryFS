@@ -64,7 +64,8 @@ The project is split into focused repositories:
 | `VeryFS.Clients.TypeScript` | TypeScript SDK for the VeryFS API. |
 | `VeryFS` | Project overview, roadmap, contribution guide, and repository index. |
 
-This repository will later include the other repositories as Git submodules.
+This repository includes the implementation repositories as Git submodules.
+Clone with `--recurse-submodules` to get a complete source checkout.
 
 ## Current Status
 
