@@ -16,9 +16,9 @@ automation tools, and AI agents to heterogeneous knowledge and storage sources.
 
 It provides a Unix-style namespace over mounted resources such as local
 directories, Git repositories, WebDAV endpoints, remote VeryFS instances, and
-research libraries. The project is designed around a small core, pluggable
+knowledge libraries. The project is designed around a small core, pluggable
 drivers, language clients, and workspace export paths that are friendly to
-agentic coding and research workflows.
+agentic coding and knowledge workflows.
 
 ## Why AI-Native
 

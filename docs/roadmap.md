@@ -56,7 +56,7 @@
   browse mounted resources, read files, inspect manifests, and materialize
   workspaces through scoped permissions.
 - Provide agent-oriented workspace export profiles for Codex, Claude Code, and
-  other coding or research agents.
+  other coding or knowledge agents.
 - Expose manifest, recent, provenance, cache policy, and version metadata in
   forms that are efficient for tool calls and safe for large repositories.
 - Add examples showing signed user requests, least-privilege mounts, and
